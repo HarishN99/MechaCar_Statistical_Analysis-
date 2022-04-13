@@ -14,6 +14,9 @@ Write a short summary using a screenshot of the output from the linear regressio
 - Is the slope of the linear model considered to be zero? Why or why not?
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
+THe linear regression summary shows that the dataset fits within normal parameters 
+- R-squared is around 70% which means abot 7-% of the variablity of (DV) is explained using this linear model. 
+- p-value is much lower than a significance level of 0.005, safe to reject the null hypothesis
 
 <hr>
 
