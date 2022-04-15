@@ -4,6 +4,8 @@
 
 ### Purpose
 
+The purpose of this analysis was to review the produciton data for insights on some produciton troubles blocking the manufacturing team's progress on the MechaCar a new prototype by AutosRUs. The analysis included perfomring multiple linear regrssion analysis, collecting summary statistics, conducting t-tests to determine whether the lots are different statistically from the mean population. A statistical study was designed to study and compare vehicle performance of the MechaCar vehicles against vehicls from other manufacturers and interpret respective findings. 
+
 <hr>
 
 ## Linear Regression to Predict MPG
