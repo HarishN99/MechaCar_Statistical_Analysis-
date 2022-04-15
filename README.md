@@ -10,19 +10,41 @@ The purpose of this analysis was to review the produciton data for insights on s
 
 ## Linear Regression to Predict MPG
 
+![mecha_df_summary](https://user-images.githubusercontent.com/94864663/163631833-f0485712-f186-49ce-8de4-019713ff27ae.png)
+
+
 Write a short summary using a screenshot of the output from the linear regression, and address the following questions:
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - Is the slope of the linear model considered to be zero? Why or why not?
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-THe linear regression summary shows that the dataset fits within normal parameters 
+
+
+
+The linear regression summary shows that the vehicle lengts and vehicle ground cleareance are 
+
+
+
+
+The linear regression summary shows that the dataset fits within normal parameters 
 - R-squared is around 70% which means abot 7-% of the variablity of (DV) is explained using this linear model. 
 - p-value is much lower than a significance level of 0.005, safe to reject the null hypothesis
 
 <hr>
 
 ## Summary Statistics on Suspension Coils
+
+<b>Total Summary</b>
+
+![total_summary](https://user-images.githubusercontent.com/94864663/163631903-cfce722c-fdc0-4f00-a12a-c0f55e5b98a5.png)
+
+<br>
+
+<b>Lot Summary</b>
+
+![lot_summary](https://user-images.githubusercontent.com/94864663/163631949-38ac5280-0817-45ee-a9f2-a2f3868c5ebf.png)
+
 
 write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
 
@@ -32,6 +54,12 @@ write a short summary using screenshots from your total_summary and lot_summary 
 <hr>
 
 ## T-Tests on Suspension Coils
+
+<b>Suspension Coils t-test Results</b>
+
+![D3ttest](https://user-images.githubusercontent.com/94864663/163632217-d2e2ea9b-d75f-4819-819c-d0c57959061a.png)
+
+
 
 Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
