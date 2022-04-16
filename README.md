@@ -13,23 +13,13 @@ The purpose of this analysis was to review the produciton data for insights on s
 ![mecha_df_summary](https://user-images.githubusercontent.com/94864663/163631833-f0485712-f186-49ce-8de4-019713ff27ae.png)
 
 
-Write a short summary using a screenshot of the output from the linear regression, and address the following questions:
+The linear regression summary shows that the vehicle lengths and vehicle ground cleareance have very low probabilitis of observing any value equal or larger than the t value. This means there it would be extremely unlikely that the realtionship between vehivle length and mpg values and the relationship between ground clearance and mpg values would be due to chance alone. 
 
-- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-- Is the slope of the linear model considered to be zero? Why or why not?
-- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+The summay also shows that the p-value for this model is 5.35e-11 which is smaller than a 0.05 significance level, providing more than enough evidence to reject the null hypothesis. This also provides evidence to assume the slope of the linear model will not be zero. This can be concluded because the p-value shows a a very low probability that th relationship shown in the data occured under the assumption of the null hypohthesis. 
 
-
+Looking at the multiple r-squared value of 0.7149, this shows that about 71.5% of all predictions for mpg can be attribted to the model. Even adjusting for the number of independent variabels in the model, looking at the adjusted R-squared value of 0.6825 still shows a large percentage of predictions for mpg are determined by the model. Therfore, it is safe to assume the model is able to predict the mpg of the MechaCar prototypes by AutosRUs rather effectively. 
 
 
-The linear regression summary shows that the vehicle lengts and vehicle ground cleareance are 
-
-
-
-
-The linear regression summary shows that the dataset fits within normal parameters 
-- R-squared is around 70% which means abot 7-% of the variablity of (DV) is explained using this linear model. 
-- p-value is much lower than a significance level of 0.005, safe to reject the null hypothesis
 
 <hr>
 
@@ -50,6 +40,9 @@ write a short summary using screenshots from your total_summary and lot_summary 
 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
 - Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+
+
 
 <hr>
 
