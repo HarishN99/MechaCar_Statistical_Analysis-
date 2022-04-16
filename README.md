@@ -54,9 +54,31 @@ The total smmary shows a mean of 1498.78 which is very close to the median of 15
 
 ![D3ttest](https://user-images.githubusercontent.com/94864663/163632217-d2e2ea9b-d75f-4819-819c-d0c57959061a.png)
 
+<br>
+
+<b>Lot 1 t-test Results</b>
+
+![Lot1_ttest](https://user-images.githubusercontent.com/94864663/163687994-0f008f68-215a-4ba2-855f-44378a184cc1.png)
+
+<br>
+
+
+<b>Lot 2 t-test Results</b>
+
+![Lot2_ttest](https://user-images.githubusercontent.com/94864663/163687996-d5493084-d761-4cb0-891e-b411e4bf273d.png)
+
+<br>
+
+
+<b>Lot 3 t-test Results</b>
+
+![Lot3_ttest](https://user-images.githubusercontent.com/94864663/163687998-8f1acc58-caa1-4799-bafa-7f89e8993e48.png)
+<br>
 
 
 Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+
+The resutls of the t-test show a mean of 1498.78 compared with an expected null hypotheiss mean of 1500, with a p-value of 0.06, there is not enough evidence to support rejecting the null hypothesis. This is because the p-value is greater than a significance level of 0.05, meanign there is enough of a chance that the findings within the data are in support of the null. Therefore, we fail to reject the null and assume the mean of all three manufacturing lots are statistically similar to the expected populaiton mean of 1500. Looking at the lots individually,  both lots 1 and 2 with p-values of 1 and 0.61 also follow this pattern where their respective p-values are greater than a significance level of 0.05. However, the t-test for lot 3 shows a p-value of 0.042 which is lower than the significance level, allowing us to conclude the mean for lot 3 is statistically different from teh expeced mean of 1500. Ultimatly, this means there is somehting outside the realm of chance and random variance going on with lot 3. 
 
 <hr>
 
