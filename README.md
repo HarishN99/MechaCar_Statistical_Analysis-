@@ -42,6 +42,8 @@ write a short summary using screenshots from your total_summary and lot_summary 
 - Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 
+The total smmary shows a mean of 1498.78 which is very close to the median of 1500, meaning the we can assume the data follows a symmetrical normal distribution. Looking at the variance of 62.29 PSI, the suspension coil variance is well below the criteria of 100 pounds per square inch therefore the overall it appears the design specifications are met. However, the lot summary above shows that lot 1 and 2 with variances of about 0.98 and 7.47 respectively are well below the design criteria and also much lower than the variance for the entire population. Lot 3 with a variance of 170.3 however has a variance much higher than the acceptable limit and of course higher than the variance for the entire popilaiton. Therefore while it appears as if the entire populations meets the criteria, in reality, only variances for lot 1 and 2 fall well below 100 pounds per square inch.
+
 
 
 <hr>
