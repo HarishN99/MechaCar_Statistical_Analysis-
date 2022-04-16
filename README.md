@@ -36,12 +36,6 @@ Looking at the multiple r-squared value of 0.7149, this shows that about 71.5% o
 ![lot_summary](https://user-images.githubusercontent.com/94864663/163631949-38ac5280-0817-45ee-a9f2-a2f3868c5ebf.png)
 
 
-write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
-
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
-- Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-
-
 The total smmary shows a mean of 1498.78 which is very close to the median of 1500, meaning the we can assume the data follows a symmetrical normal distribution. Looking at the variance of 62.29 PSI, the suspension coil variance is well below the criteria of 100 pounds per square inch therefore the overall it appears the design specifications are met. However, the lot summary above shows that lot 1 and 2 with variances of about 0.98 and 7.47 respectively are well below the design criteria and also much lower than the variance for the entire population. Lot 3 with a variance of 170.3 however has a variance much higher than the acceptable limit and of course higher than the variance for the entire popilaiton. Therefore while it appears as if the entire populations meets the criteria, in reality, only variances for lot 1 and 2 fall well below 100 pounds per square inch.
 
 
@@ -76,20 +70,23 @@ The total smmary shows a mean of 1498.78 which is very close to the median of 15
 <br>
 
 
-Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
-
 The resutls of the t-test show a mean of 1498.78 compared with an expected null hypotheiss mean of 1500, with a p-value of 0.06, there is not enough evidence to support rejecting the null hypothesis. This is because the p-value is greater than a significance level of 0.05, meanign there is enough of a chance that the findings within the data are in support of the null. Therefore, we fail to reject the null and assume the mean of all three manufacturing lots are statistically similar to the expected populaiton mean of 1500. Looking at the lots individually,  both lots 1 and 2 with p-values of 1 and 0.61 also follow this pattern where their respective p-values are greater than a significance level of 0.05. However, the t-test for lot 3 shows a p-value of 0.042 which is lower than the significance level, allowing us to conclude the mean for lot 3 is statistically different from teh expeced mean of 1500. Ultimatly, this means there is somehting outside the realm of chance and random variance going on with lot 3. 
 
 <hr>
 
 ## Study Design: MechaCar vs Competition
 
-Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+In order to determine how the MechaCar performs against the competition we can compare metrics such as customer satisfaction scores, horse power, and engine noise levels. The study will inolve collecting data on these metrics for the MechaCar as well as its top 3 competertors within a set time frame such as 1 year. 
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+The study will be conducted to see if the mean values for cost, horse power, and engine noise levels for the MechaCar will be any different from 3 of its competitors. An example of a null and alternative hypothesis for one of the metrics will be as follows:
 
-In your description, address the following questions:
-- What metric or metrics are you going to test?
-- What is the null hypothesis or alternative hypothesis?
-- What statistical test would you use to test the hypothesis? And why?
-- What data is needed to run the statistical test?
+H0: The difference in mean customer satisfaction score between the MechaCar and it's competitor will be 0.
+Ha: The difference in mean customer satisfaction score between the MechaCar and it's competitor will be greater than 0.
+
+A two-sample t-test will be used to compare the means of the MechaCar and three of its top competitors for each of the metrics mentioned above. This is appropriate because the two sample t-test is a method used to test wither the means of two indpendent groups are equal or not. 
+
+Data on customer satisfaction scores for the MechaCar and its competitors on a scale from 1 - 5 sent to various consumers for a year would be required along with measured horsepower values in hp for the cars and measured engine noise levels in decibels (dB). Ideally we would want to test for satisfaction scores and horsepower being higher and engine noise levels being lower for the MechaCar. 
+
+
+
+
